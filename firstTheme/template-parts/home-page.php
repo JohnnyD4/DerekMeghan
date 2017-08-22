@@ -18,7 +18,7 @@ get_header(); ?>
     endif; ?>
     <div class="container">
     
-        <!---FEATURE SECTION STARTING--->
+        <!--FEATURE SECTION STARTING-->
         <?php
         if(get_theme_mod('bloggerbuz_option','disable') == 'enable'):
             $feature_cat = esc_attr(get_theme_mod('bloggerbuz_homepage_setting_feature_section_category',''));

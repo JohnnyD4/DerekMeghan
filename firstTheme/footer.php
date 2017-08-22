@@ -17,35 +17,19 @@
       <div id="footer-widgets">
             <div class="container">
                <div id="footer-one">
-                  <?php
-                  if(is_active_sidebar('bloggerbuz-footer-one')){
-                        dynamic_sidebar('bloggerbuz-footer-one');
-                  }
-                    ?>
+                 helo
                 </div>
                 <div id="footer-two">
-                       <?php
-                       if(is_active_sidebar('bloggerbuz-footer-two')){
-                            dynamic_sidebar('bloggerbuz-footer-two');
-                       }
-                      ?>
+                      
                  </div>
                  <div id="footer-three">
-                          <?php
-                           if(is_active_sidebar('bloggerbuz-footer-three')){
-                                dynamic_sidebar('bloggerbuz-footer-three');
-                           }
-                         ?>
+                        
                  </div>
                  <div id="footer-four">
-                      <?php
-                           if(is_active_sidebar('bloggerbuz-footer-four')){
-                                dynamic_sidebar('bloggerbuz-footer-four');
-                           }
-                         ?>
+                     
                  </div>
                 <div class="site-info">
-                  <div class="footer_btm_left">
+                 <!--  <div class="footer_btm_left">
                      <?php
                       $bloggerbuz_footer_copyright_text = get_theme_mod('bloggerbuz_footer_text_setting');
                       ?><a href="<?php echo esc_url('http://buzthemes.com/wordpress_themes/bloggerbuz/' ); ?>"><?php printf( esc_html__( 'Bloggerbuz', 'bloggerbuz' ) ); ?></a><?php echo esc_html__( '  |  Powered by WordPress' , 'bloggerbuz' );?>
@@ -58,7 +42,7 @@
                      if($bloggerbuz_footer_social_link){
                      do_action('bloggerbuz_header_footer_social_link_action');
                      } ?>
-                  </div>
+                  </div> -->
             </div><!-- .site-info -->
        </div>
     </div>
